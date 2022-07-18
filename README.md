@@ -8,11 +8,11 @@
 #Abbreviations for listed brain regions: CB = Cerebellum, FL = Frontal lobe, HIP = Hippocampus, MED = Medulla Oblongotta, PUT = Putamen, CAU = Caudate Nucleus.
 #For visual purposes, CAU was used instead of the Subventricullar zone.
 
-
-#Installing Cerebroviz Package
+#Install Cerebroviz package
 install.packages("XML")
-install.packages("path_to_downloaded_tarball")
-vignette(topic="intro_cerebroViz", package="cerebroViz")
+#Download Cerobroviz package: https://github.com/ethanbahl/cerebroViz/blob/master/release/cerebroViz_1.0.tar.gz
+#Install package from downloads folder in R studio using tools>install packages>install from package archive
+
 library("cerebroViz")
 
 #Visualizing the expression of CD14 on the surface of activated microglia (AM)
